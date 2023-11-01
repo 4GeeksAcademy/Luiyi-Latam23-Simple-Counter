@@ -6,7 +6,7 @@ import ReactDOM from "react-dom";
 import "../styles/index.css";
 
 //import your own components
-import Home from "./component/home.jsx";
+import SecondsCounter from "./component/home.jsx";
 
 let counter = 0;
 setInterval(() => {
@@ -20,7 +20,7 @@ setInterval(() => {
 
   //render your react application
   ReactDOM.render(
-    <Home = SecondsCounter
+    <SecondsCounter
       firstCounter={firstDigit}
       secondCounter={secondDigit}
       thirdCounter={thirdDigit}
@@ -31,5 +31,3 @@ setInterval(() => {
     document.querySelector("#app")
   );
 }, 1000);
-
-
